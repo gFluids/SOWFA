@@ -75,6 +75,7 @@ ar cr libfast.a \
       fastsubiter.o fastinit.o fastrun.o fastend.o fastread.o \
       fastgetbldpos.o fastgetbldforce.o
 
+mkdir -p ../../../applications/solvers/incompressible/windEnergy/windPlantSolverFAST/fast/
 
 cp libfast.a ../../../applications/solvers/incompressible/windEnergy/windPlantSolverFAST/fast/
 
