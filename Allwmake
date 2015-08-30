@@ -102,9 +102,8 @@ cd applications/solvers/incompressible/windEnergy/turbineTestHarness
 wmake
 cd ../../../../../
 
-cd src/openfast/bin
-make
-./libmake
+cd src/openfast7/bin
+./objmake
 cd ../../../
 
 cd src/fastturb
